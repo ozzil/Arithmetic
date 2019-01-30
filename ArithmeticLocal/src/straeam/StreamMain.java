@@ -26,6 +26,7 @@ public class StreamMain {
             .map(String::toUpperCase)
             .collect(Collectors.toList());
     System.out.println(outPut);
+    ExtendTest.ExtendChildren.extend();
     }
     
 }
