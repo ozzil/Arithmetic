@@ -8,7 +8,7 @@ public class Recursion {
         if(n == 1) {
             return 1;
         }else {
-        return factorial(n-1);
+        return n*factorial(n-1);
     }
   }
     
