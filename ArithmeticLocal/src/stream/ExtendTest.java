@@ -1,4 +1,4 @@
-package straeam;
+package stream;
 
 public class ExtendTest {
      static void extend() {
